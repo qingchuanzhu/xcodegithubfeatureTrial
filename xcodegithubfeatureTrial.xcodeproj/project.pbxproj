@@ -12,6 +12,7 @@
 		351B33CC1F7B63F90000BAC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B33CA1F7B63F90000BAC1 /* Main.storyboard */; };
 		351B33CE1F7B63F90000BAC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 351B33CD1F7B63F90000BAC1 /* Assets.xcassets */; };
 		351B33D11F7B63F90000BAC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 351B33CF1F7B63F90000BAC1 /* LaunchScreen.storyboard */; };
+		351B33DB1F80479C0000BAC1 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351B33DA1F80479C0000BAC1 /* MasterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		351B33CD1F7B63F90000BAC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		351B33D01F7B63F90000BAC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		351B33D21F7B63F90000BAC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351B33DA1F80479C0000BAC1 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				351B33C61F7B63F90000BAC1 /* AppDelegate.swift */,
 				351B33C81F7B63F90000BAC1 /* ViewController.swift */,
+				351B33DA1F80479C0000BAC1 /* MasterViewController.swift */,
 				351B33CA1F7B63F90000BAC1 /* Main.storyboard */,
 				351B33CD1F7B63F90000BAC1 /* Assets.xcassets */,
 				351B33CF1F7B63F90000BAC1 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				351B33C91F7B63F90000BAC1 /* ViewController.swift in Sources */,
 				351B33C71F7B63F90000BAC1 /* AppDelegate.swift in Sources */,
+				351B33DB1F80479C0000BAC1 /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
